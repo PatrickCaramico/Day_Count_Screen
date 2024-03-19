@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Contador_Dias | Patrick Caramico</title>
+</head>
+<body>
+    <button id="btnVoltar" onclick="voltarPagina()" class="btn btn-primary">Voltar</button>
+
+    <div class="container">
+        <h1>Contador de Dias</h1>
+        <div class="form-group">
+            <label for="dataInicial">Data Inicial:</label>
+            <input type="date" id="dataInicial" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="dataFinal">Data Final:</label>
+            <input type="date" id="dataFinal" class="form-control">
+        </div>
+
+        <button onclick="calcularDiferenca()" class="btn btn-primary">Calcular</button>
+        <button onclick="limparInputs()" class="btn btn-secondary">Limpar</button>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
