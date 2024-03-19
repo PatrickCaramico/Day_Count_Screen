@@ -1,6 +1,6 @@
 # Day_Count_Screen
 
-<p>Tela de login com sistema de contagem de dias.</p>
+<p>Login screen with a day counting system.</p>
 
 # Readme Contents:
 
@@ -21,9 +21,7 @@
 
 ### about
 
-<p>O intuito do projeto era criar um sistema de contagem de dias com tela de login, nesse sistema mostra a diferença entre dias, semanas e ano. 
-O sistema de login possui uma usuario e senha cadastro, para acessar basta informar <b>usuario: admin e senha: senha123</b>.
-</p>
+<p>The purpose of the project was to create a day counting system with a login screen. This system shows the difference between days, weeks, and years. The login system has a registered username and password. To access, simply provide <b>username: admin and password: senha123</b></p>
 
 ### preview
 
@@ -75,5 +73,5 @@ O sistema de login possui uma usuario e senha cadastro, para acessar basta infor
 [![GitHub Badge](https://img.shields.io/badge/Patrick%20Caramico-0077B5?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/PatrickCaramico)](https://github.com/PatrickCaramico)
 
 ## link
- Clique aqui para acessar o projeto
+ Click here to access the project
  [Contagem Dias](https://contagemdias.netlify.app/)
