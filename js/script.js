@@ -1,16 +1,16 @@
-//Criando um alerta
+// Criar um alerta 
 function exibirAlerta() {
-  var alerta = document.getElementById("Alerta");
+  var alerta = document.getElementById("alerta");
   alerta.style.display = "block";
   alerta.innerHTML = "Usuario: admin" + "<br>" + " Senha: senha123";
   alerta.className = "alert alert-primary";
 
-  setTimeout(function) {
+  setTimeout(function() {
     alerta.style.display = "none";
-  }, 5000); //Esconda o alerta após 5 segundos
+  }, 5000); // Esconde o alerta após 5 segundos
 }
 
-//Chamar a função exibirAlerta assim que a página for inclúida
+//Chamar a função exibirAlerta assim que a página for incluída
 window.onload = exibirAlerta;
 
 // Tela de login 
