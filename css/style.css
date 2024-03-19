@@ -33,7 +33,7 @@ h1 {
     width: 48%;
 }
 
-#resultado {
+#resultado, #observacao {
     margin-top: 20px;
     padding: 10px;
     background-color: #f8f9fa;
