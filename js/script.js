@@ -1,19 +1,3 @@
-// Tela de login 
-function fazerLogin() {
-  var usuario = document.getElementById("usuario").value;
-  var senha = document.getElementById("senha").value;
-
-  //Verificar se o login e senha estão corretos
-  if (usuario === "admin" && senha === "senha123") {
-    //redicionar o usuario para tela de contagem de dias
-    window.location.href = "tela_contagem.html"
-  } else {
-    //Exibir uma mensagem de erro
-    var alerta = document.getElementById("alerta");
-    alerta.style.display = "block";
-  }
-}
-
 function calcularDiferenca() {
     //Verificar os valores dos inputs
     var dataInicial = document.getElementById("dataInicial").value;
@@ -92,14 +76,7 @@ function voltarPagina() {
   window.history.back();
 }
 
-//Visibilidade da senha
-function alternarVisibilidadeSenha() {
-  var senhaInput = document.getElementById("senha");
-  var mostrarSenhaCheckbox = document.getElementById("mostrarSenha");
-
-  if(mostrarSenhaCheckbox.checked) {
-    senhaInput.type = "text";
-  } else {
-    senhaInput.type = "password";
-  }
+// Função para alternar o tema
+function toggleTheme() {
+  document.body.classList.toggle('dark-theme');
 }
