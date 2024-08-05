@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url("./style/cabecalho.css");
+@import url("./style/home.css");
+@import url("./style/rodape.css");
+
+:root {
+    --Font-Principal: 'Montserrat', sans-serif;
+    --Cor-primaria: #FFFFFF;
+    --Cor-fundo: black;
+    --Cor-fundo2:  linear-gradient(to right, rgb(20,  147, 220), rgb(17, 54, 71));
+    /* --Cor-fundo3: #6a6e73; */
+    --Cor-fundo3:  linear-gradient(to right, rgb(0, 92,197), rgb(90, 20, 220));
+    
+}
+
+body {
+    font-family: var(--Font-Principal);
+}
+
