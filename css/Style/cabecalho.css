@@ -1,0 +1,18 @@
+.cabecalho {
+    align-items: center;
+    background: var(--cor-fundo);
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+    padding: 2rem;
+}
+
+.cabecalho__titulo {
+    color: var(--Cor-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cabecalho__imagem {
+    max-height: 30px;
+}
