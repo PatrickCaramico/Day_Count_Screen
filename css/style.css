@@ -1,5 +1,9 @@
 body {
     background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -8,7 +12,30 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0,1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.result {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 h1 {
@@ -39,6 +66,9 @@ h1 {
     background-color: #f8f9fa;
     border: 1px solid #ced4da;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #btnVoltar {
@@ -48,4 +78,40 @@ h1 {
     width: 50px;
     height: 30px;
     padding: 0;
+}
+
+
+/* Estilo para o botão de alternar tema */
+#btnToggleTheme {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Estilo para o tema preto */
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+body.dark-theme .btn {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme .form-control {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme .container h1 {
+    color: black;
+}
+
+body.dark-theme .container .form-group {
+    color: black;
+}
+
+body.dark-theme #resultado, #observacao {
+    color: black;
 }
